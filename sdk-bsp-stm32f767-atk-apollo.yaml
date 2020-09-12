@@ -87,6 +87,15 @@ docs:
   title: STM32F767 Datasheet
 example_projects: []
 features:
+- "MCU：STM32f767，216MHz，1MB FLASH ，512KB RAM，16K CACHE"
+- "External SDRAM：W9825G6KH，32MB"
+- "External NAND FLASH： MT29F4G08，512MB"
+- "External SPI FLASH： W25Q256，32M "
+- "LED：DS0（Red，PB1），DS1（Green，PB0）"
+- "Buttons：4个，KEY_UP（Wake-up，PA0），K0（PH3），K1（PH2），K2（PC13）"
+- "Interface：USB-Serial、SD Card、Ethernet、LCD"
+- "Debug: JTAG/SWD"
+features_zh:
 - "MCU：STM32f767，主频 216MHz，1MB FLASH ，512KB RAM，16K CACHE"
 - "外部 SDRAM：W9825G6KH，32MB"
 - "外部 NAND FLASH： MT29F4G08，512MB"
@@ -98,4 +107,4 @@ features:
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
