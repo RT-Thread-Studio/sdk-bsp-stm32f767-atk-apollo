@@ -92,7 +92,7 @@ features:
 - "External NAND FLASH： MT29F4G08，512MB"
 - "External SPI FLASH： W25Q256，32M "
 - "LED：DS0（Red，PB1），DS1（Green，PB0）"
-- "Buttons：4个，KEY_UP（Wake-up，PA0），K0（PH3），K1（PH2），K2（PC13）"
+- "Buttons：KEY_UP（Wake-up，PA0），K0（PH3），K1（PH2），K2（PC13）"
 - "Interface：USB-Serial、SD Card、Ethernet、LCD"
 - "Debug: JTAG/SWD"
 features_zh:
